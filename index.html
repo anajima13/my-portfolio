@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ana Jimenez - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Ana Jimenez
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          ana.ji.ma.13@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +52 729 102 3039
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="skills">Skills</a>
+          <a class="topmenu" href="projects">Projects</a>
+          <a class="topmenu" href="recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://cliply.co/wp-content/uploads/2020/10/442010361_WINKING_AVATAR_3D_400px.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hello there, I'm Ana Jimenez!<img src="https://media.giphy.com/media/CRUeELrgxrOAGPDwR3/giphy.gif?cid=ecf05e47lub6acznn1cr052lfkoo90bm6hu59uyxve8cw7cf&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="50px"/>
+          </h1>
+          <p>
+            I am a full-stack developer fueled by caffeine and a love for turning code into captivating experiences.
+            Fluent in HTML, CSS and JavaScript for crafting sleek front-ends, I seamlessly transition to the back-end with Python and Node.js.
+            I'm not just a code maestra; I'm a problem-solving architect with a knack for creating efficient and visually pleasing applications.
+            Constantly evolving with the tech and landscape, I thrive on challenges and collaborate seamlessly with teams.
+            Lets build something extraordinary together in this digital frontier!!! :)
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png"/>
+            <h6>Java</h6>
+            <p>3 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png"/>
+            <h6>Python</h6>
+            <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn4.iconfinder.com/data/icons/documents-42/512/document_file_paper_page-33-256.png"/>
+            <h6>CSS</h6>
+            <p>1 year experience</p>
+        </div>
+
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <ul>
+              <li>Integrated a weather API into my project to display current weather conditions
+                  based on the user's location. Including additional features like a five-day forecast
+                  or the ability to search for a weather in different locations.
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <ul>
+              <li>Designed a personal portfolio website showcasing my skills, projects 
+                  and a brief about myself.
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Event Countdown Timer</h3>
+            <ul>
+              <li>Built a countdown timer for an upcoming event. Allowing users to set the date and time 
+                  for the event and display a live countdown.
+              </li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Ana's full-stack prowess is unmatched. Her clean code and innovative solutions consistently
+          elevate our projects. A reliable team player, Ana brings passion and precision to every task.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Exceptional problem solver! Ana's full-stack wizardry effortlessly transforms complex challenges 
+          into elegant solutions. A reliable and creative collaborator, she's an asset to any development team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+         Ana's full-stack expertise is a game-changer. Her ability to seamlssly navigate both 
+         front-end and back-end realms result in robust, visually stunning applications. 
+         A true coding virtuosa! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you for leaving a recommendation! :)</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
